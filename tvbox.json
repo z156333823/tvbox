@@ -1,0 +1,27 @@
+",
+	"name": "站源订阅示例",
+	"mac": [
+		{
+			"id": "kuaibozy_demo",
+			"name": "1080资源网",
+			"charset": "utf-8",
+			"summary": "修订日期：2024-04-16",
+			"api": "https://api.1080zyku.com/inc/ldg_api.php",
+			"sort": 30,
+			"usePCUserAgent": true,
+			"dtEntities": [
+				{
+					"id": "kbm3u8",
+					"sort": 0,
+					"name": "在线播放",
+					"type": "Direct",
+					"canDownload": true
+				},
+				{
+					"id": "kbzy",
+					"sort": 1,
+					"name": "云播放",
+					"type": "WebView"
+				}
+			]
+		},
